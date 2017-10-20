@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.header {
+  width: 3.75rem;
+  height: 0.51rem; }
+  .header .div1 {
+    float: left; }
+    .header .div1 img {
+      width: 1.07rem;
+      height: 0.36rem;
+      margin-top: 0.08rem;
+      margin-left: 0.09rem; }
+  .header .div2 {
+    float: right;
+    margin-right: 0.09rem; }
+    .header .div2 ul li {
+      float: left;
+      color: #999999;
+      width: 50%;
+      height: 0.225rem;
+      line-height: 0.225rem;
+      text-align: center;
+      margin-top: 0.08rem; }
+      .header .div2 ul li .icon-user {
+        font-size: 0.225rem; }
+      .header .div2 ul li .icon-nav {
+        font-size: 0.165rem; }
+    .header .div2 ul li:nth-child(1) {
+      margin-left: -0.165rem; }
+    .header .div2 ul li:nth-child(2) {
+      margin-left: 0.165rem; }
+    .header .div2 ol li:nth-child(1) {
+      margin-left: -0.165rem; }
+    .header .div2 ol li:nth-child(2) {
+      margin-left: 0.165rem; }
+    .header .div2 ol li {
+      float: left;
+      color: #999999;
+      width: 50%;
+      text-align: center;
+      margin-top: -0.02rem; }
+
+.lunbo {
+  width: 3.75rem; }
+  .lunbo img {
+    width: 100%; }
+
+.fenl {
+  width: 3.75rem;
+  font-size: 0.14rem; }
+  .fenl ul li {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.3rem;
+    color: white;
+    text-align: center;
+    line-height: 0.6rem; }
+    .fenl ul li i {
+      font-size: 0.34rem; }
+  .fenl .ul1 {
+    margin-top: 0.12rem; }
+  .fenl .ul1 li:nth-child(1) {
+    background-color: #39c894; }
+  .fenl .ul1 li:nth-child(2) {
+    background-color: #feb505; }
+  .fenl .ul1 li:nth-child(3) {
+    background-color: #eed215; }
+  .fenl .ul1 li:nth-child(4) {
+    background-color: #00b2b2; }
+  .fenl .ul2 {
+    margin-top: 0.26rem; }
+  .fenl .ul2 li:nth-child(1) {
+    background-color: #1b9af7; }
+  .fenl .ul2 li:nth-child(2) {
+    background-color: #7b72e9; }
+  .fenl .ul2 li:nth-child(3) {
+    background-color: #ff4351; }
+  .fenl .ul2 li:nth-child(4) {
+    background-color: #fe8864; }
+  .fenl ol li {
+    float: left;
+    width: 0.6rem;
+    height: 0.6rem;
+    text-align: center;
+    margin-left: 0.3rem; }
+
+.kon {
+  float: left;
+  width: 3.75rem;
+  height: 0.09rem;
+  background-color: #eaeaea; }
+
+.kon1 {
+  float: left;
+  width: 3.75rem;
+  height: 0.09rem;
+  background-color: #eaeaea;
+  margin-top: 0.18rem; }
+
+.biaot {
+  width: 3.75rem;
+  height: 0.53rem;
+  line-height: 0.53rem; }
+  .biaot .p1 {
+    float: left;
+    width: 0.025rem;
+    height: 0.18rem;
+    background-color: #39c894;
+    margin-left: 0.18rem;
+    margin-top: 0.18rem; }
+  .biaot h1 {
+    float: left;
+    font-size: 0.18rem; }
+  .biaot p {
+    float: left;
+    font-size: 0.12rem;
+    color: #999;
+    margin-left: 0.12rem; }
+
+.tu {
+  width: 3.39rem;
+  margin-left: 0.18rem; }
+  .tu img {
+    width: 100%; }
+  .tu ul li {
+    float: left;
+    line-height: 0.54rem; }
+    .tu ul li i {
+      font-size: 0.18rem;
+      float: left;
+      color: #39c894; }
+    .tu ul li p {
+      font-size: 0.12rem;
+      color: #000;
+      float: left;
+      margin-left: 0.06rem; }
+  .tu ul li:nth-child(2) {
+    margin-left: 0.2rem; }
+  .tu ul li:nth-child(3) {
+    margin-left: 0.2rem; }
+
+.shenq {
+  width: 3.75rem;
+  text-align: center;
+  margin-top: 0.53rem; }
+  .shenq input {
+    width: 2.93rem;
+    height: 0.35rem;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    margin-top: 0.125rem;
+    font-size: 0.14rem; }
+
+.shenq input:nth-child(5) {
+  background-color: #feb505;
+  font-size: 0.18rem; }
+
+.shej .zhaop {
+  margin-top: 0.3rem; }
+  .shej .zhaop li {
+    float: left; }
+  .shej .zhaop .ul1 {
+    width: 100%; }
+    .shej .zhaop .ul1 li {
+      width: 25%;
+      text-align: center;
+      height: 0.7rem; }
+      .shej .zhaop .ul1 li img {
+        width: 0.7rem;
+        height: 0.7rem;
+        border-radius: 25px; }
+  .shej .zhaop .ul2 {
+    width: 100%; }
+    .shej .zhaop .ul2 li {
+      width: 25%;
+      text-align: center;
+      font-size: 0.18rem;
+      color: #000; }
+  .shej .zhaop ol {
+    width: 100%; }
+    .shej .zhaop ol li {
+      width: 0.6rem;
+      height: 0.16rem;
+      font-size: 0.12rem;
+      background-color: #39C894;
+      border-radius: 5px;
+      color: white;
+      text-align: center;
+      line-height: 0.16rem; }
+  .shej .zhaop ol li:nth-child(1) {
+    margin-left: 0.16875rem; }
+  .shej .zhaop ol li:nth-child(2) {
+    margin-left: 0.3375rem; }
+  .shej .zhaop ol li:nth-child(3) {
+    margin-left: 0.3375rem; }
+  .shej .zhaop ol li:nth-child(4) {
+    margin-left: 0.3375rem; }
+  .shej .zhaop .ul3 li {
+    width: 1.79rem;
+    height: 0.35rem;
+    border: 1px solid #39C894;
+    margin-top: 0.18rem;
+    font-size: 0.14rem;
+    line-height: 0.35rem;
+    text-align: center;
+    color: #39C894; }
+    .shej .zhaop .ul3 li p {
+      float: left; }
+    .shej .zhaop .ul3 li i {
+      float: left;
+      font-size: 0.14rem; }
+  .shej .zhaop .ul3 li:nth-child(1) {
+    margin-left: 0.08rem; }
+
+.tup {
+  width: 3.75rem;
+  text-align: center;
+  overflow: hidden; }
+  .tup .xiaog {
+    width: 3.58rem; }
+  .tup .xiaog img:nth-child(1) {
+    width: 100%;
+    margin-left: 0.085rem; }
+  .tup ul li {
+    float: left;
+    width: 1.77rem; }
+    .tup ul li img {
+      width: 100%;
+      margin-top: 0.04rem; }
+  .tup .er {
+    margin-left: 0.04rem; }
+
+.gengd {
+  width: 3.75rem;
+  margin-top: 0.18rem; }
+  .gengd .ul3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+    .gengd .ul3 li {
+      width: 1.79rem;
+      height: 0.35rem;
+      border: 1px solid #39C894;
+      font-size: 0.14rem;
+      line-height: 0.35rem;
+      text-align: center;
+      color: #39C894; }
+      .gengd .ul3 li p {
+        float: left; }
+      .gengd .ul3 li i {
+        float: left;
+        font-size: 0.14rem; }
+  .gengd .ul3 li:nth-child(1) {
+    margin-left: 0.085rem; }
+
+.gongd .zhib {
+  margin-top: 0.53rem;
+  width: 3.58rem;
+  margin-left: 0.085rem; }
+  .gongd .zhib img {
+    width: 100%; }
+.gongd .zi {
+  margin-left: 0.085rem; }
+  .gongd .zi h1 {
+    float: left;
+    font-size: 0.14rem; }
+  .gongd .zi p {
+    float: left;
+    font-size: 0.12rem;
+    color: white;
+    background-color: #39C894;
+    border-radius: 5px;
+    margin-top: 0.01rem; }
+
+.zhuangx {
+  width: 3.75rem; }
+  .zhuangx .liz {
+    margin-top: 0.18rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid #999999; }
+    .zhuangx .liz .img {
+      width: 0.85rem;
+      height: 0.725rem;
+      margin-left: 0.18rem; }
+      .zhuangx .liz .img img {
+        width: 100%; }
+    .zhuangx .liz .txt {
+      margin-left: 0.11rem; }
+      .zhuangx .liz .txt h1 {
+        font-size: 0.18rem;
+        margin-top: -0.07rem; }
+      .zhuangx .liz .txt p {
+        color: #999999; }
+        .zhuangx .liz .txt p i {
+          float: left;
+          font-size: 0.14rem; }
+        .zhuangx .liz .txt p b {
+          margin-left: 0.06rem;
+          float: left;
+          font-size: 0.14rem; }
+      .zhuangx .liz .txt .icon-view {
+        margin-left: 0.35rem; }
+
+.zhuangx .liz:nth-child(4) {
+  border: none; }
+
+.text {
+  width: 3.75rem; }
+  .text p {
+    text-indent: 2em;
+    font-size: 0.14rem;
+    color: #333;
+    margin-left: 0.18rem;
+    margin-right: 0.18rem; }
+
+.footer {
+  width: 3.75rem; }
+  .footer ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+  .footer .phone {
+    margin-left: 26%; }
+    .footer .phone i {
+      font-size: 0.16rem;
+      color: #39C894; }
+    .footer .phone p {
+      font-size: 0.14rem; }
+  .footer .xuanx li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.14rem; }
+  .footer .xuanx li:nth-child(1) {
+    color: #39C894; }
+
+footer {
+  width: 3,75rem;
+  height: 0.53rem;
+  background: #000;
+  opacity: 80%;
+  display: flex; }
+  footer div:nth-child(1) img {
+    width: 0.20rem; }
+  footer div:nth-child(2) {
+    margin-top: 0.050rem;
+    margin-left: 0.050rem; }
+    footer div:nth-child(2) img {
+      width: 1005;
+      height: 0.445rem; }
+  footer div:nth-child(3) button {
+    width: 0.90rem;
+    height: 0.30rem;
+    border-radius: 50px;
+    background: #FEB605;
+    font-size: 0.02rem;
+    border: 1px solid #FEB605;
+    color: white;
+    margin-left: 0.2rem;
+    margin-top: 0.10rem; }
+
+.ddb {
+  width: 0.47rem;
+  height: 0.47rem;
+  border: 1px solid #dedede;
+  text-align: center;
+  border-radius: 50px;
+  position: fixed;
+  left: 3.15rem;
+  top: 90%;
+  background: white;
+  z-index: 2000; }
+  .ddb a {
+    text-align: center;
+    width: 0.2rem;
+    color: #9c9c9c;
+    line-height: 0.47rem; }
+
+/*# sourceMappingURL=new_file.css.map */

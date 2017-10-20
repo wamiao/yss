@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header{
+    width: 3.75rem;
+    height: 0.51rem;
+    border-bottom: 1px solid #999999;
+    .div1{
+        float: left;
+        img{
+            width: 1.07rem;
+            height: 0.36rem;
+            margin-top: 0.08rem;
+            margin-left: 0.09rem;
+        }
+    }
+    .liuc{
+        float: left;
+        font-size: 0.18rem;
+        line-height: 0.51rem;
+        margin-left: 0.5rem;
+    }
+    .div2{
+        float: right;
+        margin-right: 0.09rem;
+         ul li{
+            float: left;
+            color: #999999;
+            width: 50%;
+            height: 0.225rem;
+            line-height: 0.225rem;
+            text-align: center;
+            margin-top: 0.08rem;
+            
+            .icon-user{
+                font-size: 0.225rem;
+            }
+            .icon-nav{
+                font-size: 0.165rem;
+            }
+        }
+        ul li:nth-child(1){
+            margin-left: -0.165rem;
+        }
+        ul li:nth-child(2){
+            margin-left: 0.165rem;
+        }
+        ol li:nth-child(1){
+            margin-left: -0.165rem;
+        }
+        ol li:nth-child(2){
+            margin-left: 0.165rem;
+        }
+        ol li{
+            float: left;
+            color: #999999;
+            width: 50%;
+            text-align: center;
+            margin-top: -0.02rem;
+        }
+        
+    }
+}
+
+
+.shejis{
+    width: 3.75rem;
+    display: flex;
+    margin-left: 0.1rem;
+    margin-top: 0.18rem;
+    .img{
+        width: 1.5rem;
+        height: 1rem;
+        border-radius: 50px;
+        img{
+            width: 100%;
+        }
+    }
+    .jies{
+        width: 2.25rem;
+        margin-left: 0.125rem;
+        ul li{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            h1{
+                font-size: 0.18rem;
+                color: #000;
+            }
+            p{
+                font-size: 0.12rem;
+            }
+            span{
+                font-size: 0.14rem;
+                color: #FF4351;
+            }
+        }
+        ul li:nth-child(2){
+            margin-top: 0.09rem;
+        }
+        ul li:nth-child(3){
+            margin-top: 0.07rem;
+        }
+        ul li:nth-child(4){
+            margin-top: 0.07rem;
+        }
+    }
+}
+
+.txt{
+    width: 3.55rem;
+    margin-left: 0.1rem;
+    margin-top: 0.05rem;
+    font-size: 0.1rem;
+}
+
+
+.kon{
+    width: 3.75rem;
+    height: 0.09rem;
+    background-color: #eaeaea;
+    margin-top: 0.18rem;
+}
+
+
+.fenl{
+    width: 3.55rem;
+    height: 0.5rem;
+    margin-left: 0.1rem;
+    display: flex;
+    div{
+        width: 0.88rem;
+        text-align: center;
+        line-height: 0.5rem;
+        font-size: 0.14rem;
+        border-left: 1px solid #F4F4F4;
+        border-bottom: 1px solid #F4F4F4;
+    }
+}
+.fenl div:nth-child(1){
+    border-left: none;
+    border-bottom: 5px solid #39C894;
+}
+
+
+.tu{
+    width: 3.55rem;
+    margin-left: 0.1rem;
+    img{
+        width: 100%;
+    }
+}
+
+
+.text{
+    width: 3.75rem;
+    p{
+        text-indent: 2em;
+        font-size: 0.14rem;
+        color: #333;
+        margin-left: 0.18rem;
+        margin-right: 0.18rem;
+    }
+}
+
+
+.footer{
+    width: 3.75rem;
+    ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .phone{
+        margin-left: 26%;
+            i{
+                font-size: 0.16rem;
+                color: #39C894;
+            }
+            p{
+                font-size: 0.14rem;
+            } 
+    }
+    .xuanx{
+        li{
+            width: 25%;
+            text-align: center;
+            font-size: 0.14rem;
+        }
+    }
+    .xuanx li:nth-child(1){
+        color: #39C894;
+    }
+}
+
+
+.price{
+    width: 3.75rem;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.18rem;
+    background-color: #FF4351;
+    opacity: 90%;
+    color: white;
+    i{
+        font-size: 0.18rem;
+    }
+}
+
+.ddb{
+    width: 0.47rem;
+    height: 0.47rem;
+    border: 1px solid #dedede;
+    text-align: center;
+    border-radius: 50px;
+    position: fixed;
+    left: 3.15rem;
+    top: 90%;
+    background: white;
+    z-index: 2000;
+    a{        
+       text-align: center;
+       width: 0.2rem;
+       color: #9c9c9c;
+       line-height: 0.47rem;
+    }
+}

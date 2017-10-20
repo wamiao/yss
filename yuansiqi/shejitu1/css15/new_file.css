@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.header {
+  width: 3.75rem;
+  height: 0.51rem;
+  border-bottom: 1px solid #999999; }
+  .header .div1 {
+    float: left; }
+    .header .div1 img {
+      width: 1.07rem;
+      height: 0.36rem;
+      margin-top: 0.08rem;
+      margin-left: 0.09rem; }
+  .header .liuc {
+    float: left;
+    font-size: 0.18rem;
+    line-height: 0.51rem;
+    margin-left: 0.5rem; }
+  .header .div2 {
+    float: right;
+    margin-right: 0.09rem; }
+    .header .div2 ul li {
+      float: left;
+      color: #999999;
+      width: 50%;
+      height: 0.225rem;
+      line-height: 0.225rem;
+      text-align: center;
+      margin-top: 0.08rem; }
+      .header .div2 ul li .icon-user {
+        font-size: 0.225rem; }
+      .header .div2 ul li .icon-nav {
+        font-size: 0.165rem; }
+    .header .div2 ul li:nth-child(1) {
+      margin-left: -0.165rem; }
+    .header .div2 ul li:nth-child(2) {
+      margin-left: 0.165rem; }
+    .header .div2 ol li:nth-child(1) {
+      margin-left: -0.165rem; }
+    .header .div2 ol li:nth-child(2) {
+      margin-left: 0.165rem; }
+    .header .div2 ol li {
+      float: left;
+      color: #999999;
+      width: 50%;
+      text-align: center;
+      margin-top: -0.02rem; }
+
+.tu {
+  width: 3.75rem; }
+  .tu img {
+    width: 100%; }
+
+.jia {
+  width: 3.55rem;
+  margin-left: 0.1rem;
+  height: 0.54rem;
+  line-height: 0.54rem;
+  text-align: center;
+  border-bottom: 1px solid #999999;
+  font-size: 0.18rem; }
+  .jia img {
+    width: 0.42rem;
+    height: 0.14rem;
+    position: relative;
+    top: 0.28rem;
+    left: -0.7rem;
+    background-color: white; }
+
+.shenq {
+  width: 3.75rem;
+  text-align: center;
+  margin-top: 0.18rem; }
+  .shenq input {
+    width: 2.93rem;
+    height: 0.35rem;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    margin-top: 0.125rem;
+    font-size: 0.14rem; }
+
+.shenq input:nth-child(4) {
+  background-color: #feb505;
+  font-size: 0.18rem; }
+
+.xiu {
+  width: 3.55rem;
+  margin-left: 0.1rem;
+  margin-top: 0.27rem;
+  border: 1px dotted #39C894;
+  text-align: center; }
+  .xiu h1 {
+    width: 1.48rem;
+    font-size: 0.18rem;
+    background-color: white;
+    position: relative;
+    top: -0.14rem;
+    left: 1.035rem; }
+  .xiu p {
+    font-size: 0.14rem;
+    margin-top: 0.08rem;
+    text-indent: 2em; }
+    .xiu p span {
+      color: #39C894; }
+  .xiu div {
+    width: 100%;
+    height: 0.125rem; }
+
+.jia1 {
+  width: 3.55rem;
+  margin-left: 0.1rem;
+  height: 0.54rem;
+  line-height: 0.54rem;
+  text-align: center;
+  border-bottom: 1px solid #999999;
+  font-size: 0.18rem; }
+  .jia1 img {
+    width: 0.42rem;
+    height: 0.14rem;
+    position: relative;
+    top: 0.28rem;
+    left: -0.4rem;
+    background-color: white; }
+
+.yuy {
+  width: 3.55rem;
+  margin-left: 0.1rem;
+  margin-top: 0.18rem;
+  display: flex; }
+  .yuy .one {
+    width: 1.05rem;
+    text-align: center;
+    margin-left: 0.2rem;
+    color: #39C894;
+    border: 1px solid #39C894; }
+    .yuy .one div {
+      width: 0.65rem;
+      height: 0.65rem;
+      border: 1px solid #39C894;
+      border-radius: 50px;
+      line-height: 0.65rem;
+      margin-left: 0.2rem;
+      margin-top: 0.2rem; }
+      .yuy .one div .icon-pencle {
+        font-size: 0.35rem; }
+    .yuy .one h1 {
+      font-size: 0.18rem;
+      color: #000; }
+    .yuy .one p {
+      font-size: 0.14rem;
+      color: #999999;
+      padding-bottom: 0.2rem; }
+
+.yuy .one:nth-child(1) {
+  margin-left: 0; }
+
+table {
+  width: 3.55rem;
+  margin-left: 0.1rem;
+  margin-top: 0.18rem; }
+  table tr {
+    border-bottom: 1px solid #999999; }
+    table tr td {
+      text-align: center;
+      border-right: 1px solid #999999;
+      padding-right: 0.05rem;
+      padding-bottom: 0.1rem;
+      padding-top: 0.1rem; }
+      table tr td h1 {
+        font-size: 0.14rem; }
+      table tr td div {
+        width: 0.9rem;
+        height: 0.9rem;
+        background-color: #39C894;
+        border-radius: 50px;
+        color: white;
+        margin-left: 0.4rem; }
+        table tr td div .icon-social-security {
+          font-size: 0.6rem; }
+  table tr td:nth-child(2) {
+    border-right: none; }
+
+table tr:nth-child(2) {
+  border-bottom: none; }
+
+.xiangx {
+  width: 3.75rem;
+  margin-top: 0.18rem;
+  background-color: #EAEAEA;
+  position: relative; }
+  .xiangx .lv {
+    width: 0.06rem;
+    height: 100%;
+    background-color: #39C894;
+    position: absolute;
+    left: 1.845rem; }
+  .xiangx .shou {
+    width: 100%;
+    position: relative; }
+    .xiangx .shou img {
+      padding-top: 0.2rem;
+      width: 100%; }
+  .xiangx .biaot1 {
+    position: relative;
+    width: 2.25rem;
+    height: 0.45rem;
+    margin-left: 0.75rem;
+    margin-top: 0.1rem;
+    background: url(../img/loans2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white; }
+    .xiangx .biaot1 h1 {
+      font-size: 0.18rem; }
+    .xiangx .biaot1 p {
+      font-size: 0.12rem; }
+    .xiangx .biaot1 h2 {
+      font-size: 0.2rem;
+      line-height: 0.45rem; }
+  .xiangx .yi {
+    width: 100%;
+    display: flex;
+    margin-top: 0.1rem; }
+    .xiangx .yi .yyy {
+      width: 1.775rem;
+      margin-left: 0.1rem; }
+      .xiangx .yi .yyy ul {
+        width: 90%; }
+        .xiangx .yi .yyy ul li {
+          font-size: 0.14rem;
+          color: #999999; }
+          .xiangx .yi .yyy ul li img {
+            width: 100%; }
+          .xiangx .yi .yyy ul li p span {
+            color: #39C894; }
+          .xiangx .yi .yyy ul li h1 {
+            font-size: 0.3rem;
+            color: #000000; }
+      .xiangx .yi .yyy ul li:nth-child(2) {
+        margin-left: 26%; }
+      .xiangx .yi .yyy ul li:nth-child(3) {
+        margin-left: 47%; }
+      .xiangx .yi .yyy ul li:nth-child(4) {
+        margin-left: 38%; }
+    .xiangx .yi .eee {
+      width: 1.775rem;
+      margin-left: 0.09rem;
+      margin-top: 0.08rem; }
+      .xiangx .yi .eee ul {
+        width: 95%;
+        display: flex; }
+        .xiangx .yi .eee ul li {
+          font-size: 0.14rem; }
+          .xiangx .yi .eee ul li div {
+            width: 0.4rem;
+            height: 0.4rem;
+            border: 2px dotted #39C894;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 0.4rem;
+            color: #39C894; }
+            .xiangx .yi .eee ul li div .iconfont {
+              font-size: 0.3rem; }
+          .xiangx .yi .eee ul li h1 {
+            color: #000000; }
+          .xiangx .yi .eee ul li span {
+            color: #39C894; }
+          .xiangx .yi .eee ul li b {
+            font-size: 0.18rem; }
+      .xiangx .yi .eee ul li:nth-child(2) {
+        margin-left: 0.03rem; }
+    .xiangx .yi .shu {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 0.1rem;
+      margin-left: 0.3rem; }
+      .xiangx .yi .shu ul {
+        width: 95%;
+        display: flex;
+        margin-top: 0.1rem; }
+        .xiangx .yi .shu ul li {
+          font-size: 0.14rem; }
+          .xiangx .yi .shu ul li div {
+            width: 0.4rem;
+            height: 0.4rem;
+            border: 2px dotted #39C894;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 0.4rem;
+            color: #39C894;
+            font-size: 0.2rem;
+            margin-left: 0.1rem; }
+          .xiangx .yi .shu ul li h1, .xiangx .yi .shu ul li p {
+            margin-left: 0.08rem; }
+          .xiangx .yi .shu ul li h1 {
+            color: #39C894; }
+          .xiangx .yi .shu ul li p {
+            color: #999999; }
+    .xiangx .yi .yew {
+      width: 1.775rem;
+      margin-top: 0.08rem;
+      margin-left: -0.2rem; }
+      .xiangx .yi .yew ul {
+        width: 95%;
+        margin-top: 0.3rem; }
+        .xiangx .yi .yew ul li {
+          font-size: 0.14rem;
+          display: flex; }
+          .xiangx .yi .yew ul li div {
+            width: 0.4rem;
+            height: 0.4rem;
+            border: 2px dotted #39C894;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 0.4rem;
+            color: #39C894;
+            margin-left: -0.3rem; }
+            .xiangx .yi .yew ul li div .iconfont {
+              font-size: 0.3rem; }
+          .xiangx .yi .yew ul li h1 {
+            color: #000000;
+            margin-top: 0.1rem;
+            margin-left: 0.05rem; }
+          .xiangx .yi .yew ul li p {
+            color: #999999;
+            margin-top: 0.05rem; }
+      .xiangx .yi .yew ul li:nth-child(2) {
+        margin-left: 0.03rem; }
+  .xiangx .hui {
+    width: 3.75rem;
+    height: 0.3rem;
+    background-color: #EAEAEA;
+    margin-top: 0.2rem;
+    position: relative; }
+
+.kon1 {
+  width: 3.75rem;
+  height: 0.09rem;
+  background-color: #eaeaea;
+  margin-top: 0.18rem; }
+
+.text {
+  width: 3.75rem;
+  margin-top: 0.18rem; }
+  .text p {
+    text-indent: 2em;
+    font-size: 0.14rem;
+    color: #333;
+    margin-left: 0.18rem;
+    margin-right: 0.18rem; }
+
+.footer {
+  width: 3.75rem; }
+  .footer ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+  .footer .phone {
+    margin-left: 26%; }
+    .footer .phone i {
+      font-size: 0.16rem;
+      color: #39C894; }
+    .footer .phone p {
+      font-size: 0.14rem; }
+  .footer .xuanx {
+    border-bottom: 1px solid #EAEAEA; }
+    .footer .xuanx li {
+      width: 25%;
+      text-align: center;
+      font-size: 0.14rem; }
+  .footer .xuanx li:nth-child(1) {
+    color: #39C894; }
+
+.ddb {
+  width: 0.47rem;
+  height: 0.47rem;
+  border: 1px solid #dedede;
+  text-align: center;
+  border-radius: 50px;
+  position: fixed;
+  left: 3.15rem;
+  top: 90%;
+  background: white;
+  z-index: 2000; }
+  .ddb a {
+    text-align: center;
+    width: 0.2rem;
+    color: #9c9c9c;
+    line-height: 0.47rem; }
+
+.hao {
+  width: 3.75rem; }
+  .hao p {
+    width: 100%;
+    text-align: center;
+    font-size: 0.12rem;
+    color: #999999; }
+
+/*# sourceMappingURL=new_file.css.map */

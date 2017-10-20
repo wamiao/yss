@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.header {
+  width: 3.75rem;
+  height: 0.51rem;
+  border-bottom: 1px solid #999999; }
+  .header .div1 {
+    float: left; }
+    .header .div1 img {
+      width: 1.07rem;
+      height: 0.36rem;
+      margin-top: 0.08rem;
+      margin-left: 0.09rem; }
+  .header .liuc {
+    float: left;
+    font-size: 0.18rem;
+    line-height: 0.51rem;
+    margin-left: 0.5rem; }
+  .header .div2 {
+    float: right;
+    margin-right: 0.09rem; }
+    .header .div2 ul li {
+      float: left;
+      color: #999999;
+      width: 50%;
+      height: 0.225rem;
+      line-height: 0.225rem;
+      text-align: center;
+      margin-top: 0.08rem; }
+      .header .div2 ul li .icon-user {
+        font-size: 0.225rem; }
+      .header .div2 ul li .icon-nav {
+        font-size: 0.165rem; }
+    .header .div2 ul li:nth-child(1) {
+      margin-left: -0.165rem; }
+    .header .div2 ul li:nth-child(2) {
+      margin-left: 0.165rem; }
+    .header .div2 ol li:nth-child(1) {
+      margin-left: -0.165rem; }
+    .header .div2 ol li:nth-child(2) {
+      margin-left: 0.165rem; }
+    .header .div2 ol li {
+      float: left;
+      color: #999999;
+      width: 50%;
+      text-align: center;
+      margin-top: -0.02rem; }
+
+.sous {
+  width: 3.75rem; }
+  .sous ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+    .sous ul li {
+      width: 24.5%;
+      height: 0.5rem;
+      line-height: 0.5rem;
+      text-align: center;
+      font-size: 0.18rem;
+      border-right: 1px solid #999999; }
+  .sous ul li:nth-child(4) {
+    border: none;
+    color: #39C894; }
+    .sous ul li:nth-child(4) i {
+      font-size: 0.3rem; }
+
+.fenl {
+  width: 3.75rem;
+  background-color: #F4F4F4; }
+  .fenl .one {
+    width: 3.55rem;
+    margin-left: 0.1rem; }
+    .fenl .one h1 {
+      font-size: 0.14rem;
+      color: #000;
+      padding-top: 0.25rem; }
+    .fenl .one ul {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .fenl .one ul li {
+        width: 1.1rem;
+        height: 0.29rem;
+        line-height: 0.29rem;
+        text-align: center;
+        font-size: 0.14rem;
+        color: #999;
+        border: 1px solid #EEEEEE;
+        background-color: white;
+        margin-left: 0.04rem;
+        margin-top: 0.125rem; }
+  .fenl .one ul li:nth-child(1) {
+    color: #39C894;
+    border: 1px solid #39C894; }
+
+.ann {
+  width: 3.75rem; }
+  .ann input {
+    width: 100%;
+    height: 0.35rem;
+    line-height: 0.35rem;
+    text-align: center;
+    background-color: #39C894;
+    font-size: 0.18rem;
+    border-color: #39C894; }
+
+.kon {
+  width: 3.75rem;
+  height: 3rem;
+  background-color: #000;
+  opacity: 0.9; }
+
+/*# sourceMappingURL=new_file.css.map */
